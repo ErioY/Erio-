@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>简历制作</title>
+    <link rel="stylesheet" href="common.css">
+    <style>
+    .all{
+        width:1035px;
+        margin:10px auto;
+        border:1px #95a6b6 solid;
+    }
+    .all::after{
+        display:block;
+        content:"";
+        clear:both;
+    }
+    .left{
+        width:300px;
+        height:702px;
+        background-color:#80a8cc;
+        float:left;
+    }
+    .right{
+        width:720px;
+        height:702px;
+        float:left;
+    }
+    .right>div{
+        margin:15px;
+        border:1px #95a6b6 solid;
+    }
+    .first{ 
+        height:80px; 
+        margin-bottom:18px;
+    }
+    .second{
+        height:233px;
+    }
+    .third{
+        height:203px;
+    }
+    .fourth{
+        height:100px;
+    }
+    .leftpart{
+        color:#dbf9ff;
+    }
+    .title{
+        padding:4px;
+        font-size:18px;
+        color:#88a9b8;
+    }
+    .texts{
+        font-size: 15px;
+        font-family:Arial, Helvetica, sans-serif;
+        margin:10px;
+        font-weight:bold;
+    }
+    .contents{
+        font-size:15px;
+        color:black;
+        font-family:Arial, Helvetica, sans-serif;
+        margin:10px;
+    }
+    .name{
+        text-align:center;
+        color:white;
+        font-size:22px;
+        font-weight:bold;
+        letter-spacing:0.5em;
+    }
+    .willing{
+        text-align: center;
+        color:white;
+        font-size:13px;
+        padding:5px;
+        letter-spacing:0.3em;
+    }
+    ul.message{
+        padding:55px;
+    }
+    ul.message>li{
+        list-style:none;
+        margin:0;
+        padding:5px;
+        font-size:12px;
+        color:#f2fff4;
+    }
+    p.skill{
+        text-align:center;
+        font-size:16px;
+        font-weight:bold;
+        color:white;
+    }
+    ul.skill{
+        list-style:none;
+        margin:0;
+        padding:20px;
+    }
+    ul.skill>li{
+        font-size:13px;
+        color:white;
+        text-align:center;
+        letter-spacing:0.25em;
+    }
+    </style>
+</head>
+<body>
+    <div class="all">
+    <div class="left">
+        <p class="leftpart">
+            <p style="text-align:center; padding:55px"><img src="头像.gif" alt="照片走丢了..." width="60px"></p>
+            <p class="name">思思</p>
+            <p class="willing">应聘岗位：web前端<br />期望薪资：面议</p>
+            <ul class="message">
+                <li><img src="日期.gif" alt="照片走丢了...">&emsp;2012.05.17</li>
+                <li><img src="电话.gif" alt="照片走丢了...">&emsp;10086</li>
+                <li><img src="邮箱.gif" alt="照片走丢了...">&emsp;1973545559@qq.com</li>
+                <li><img src="现居地.gif" alt="照片走丢了...">&emsp;西安市临潼区</li>
+            </ul>
+            <p class="skill">技能证书</p>
+            <hr style="width:150px; " />
+            <ul class="skill">
+                <li>通过英语六级</li>
+                <li>通过计算机二级</li>
+                <li>教师资格证</li>
+                <li>软件工程师证</li>
+            </ul>
+        </p>
+    </div>
+    <div class="right clearfix">
+        <div class="first">
+            <p class="title">教育背景</p>
+            <p class=texts>2017.09~2021.06 &emsp;&emsp;&emsp;&emsp;西安科技大学&emsp;&emsp;&emsp;&emsp;软件工程&emsp;&emsp;&emsp;&emsp;本科学位<br /></p>
+            <p class="contents">专业技能：熟练掌握HTML、CSS、JavaScript、Ajax等，熟悉w3c标准和HTTP协议</p>
+            
+        </div>
+        <div class="second">
+            <p class="title">项目经验</p>
+            <p class="texts">学生就业管理系统（PC端）</p>
+            <p class="contents">项目描述：这是一个专门为大学生和企业设计的求职网站，功能齐全，界面优美，非常适合应届毕业生使用。<br />
+                责任描述：此项目为团队项目，本人负责的是网页制作。<br />
+                技术要点：基于div+css页面布局；使用正则表达式，注册功能的实现。
+            </p>
+        </div>
+
+        <div class="third">
+            <p class="title">校园经历</p>
+            <p class="texts">2017.10~2018.06 &emsp;&emsp;&emsp;&emsp;学生资助管理中心 &emsp;&emsp;&emsp;&emsp;学生助理</p>
+            <p class="contents">锻炼了自己的耐心、细心、责任心，扩大了自己的社交圈</p>
+            <!-- <br /> -->
+            <p class="texts">2018.09~2019.07&emsp;&emsp;&emsp;&emsp;计算机学院资助部&emsp;&emsp;&emsp;&emsp;副部长</p>
+            <p class="contents"></p>
+            <!-- <br> -->
+            <p class="texts">2019.01~2021.06&emsp;&emsp;&emsp;&emsp;软件工程1703班&emsp;&emsp;&emsp;&emsp;团支书</p>
+            <p class="contents"></p>
+            
+        </div>
+        <div class="fourth">
+            <p class="title">自我评价</p>
+            <p class="contents">自学能力强，能快速接受使用新知识；良好的分析解决问题能力，和自我管理能力；具有面向对象设计思想，具备独立分析和解决问题的能力；有较好的团队协作和沟通能力，有强烈的责任心；具有良好的沟通表达、团队协作能力，有较强的学习能力和探索精神，责任心强。</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
